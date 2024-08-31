@@ -1,0 +1,23 @@
+extraction of digits 
+
+N = 7743%10 = 3
+/10
+N = 774%10 = 4
+/10
+N = 77%10 = 7
+/10
+N = 7%10 = 7
+/10
+N = 0%10 = 0
+
+while(N> 0){
+    lastdigit = N%10;
+    N = N/10;
+}
+
+Time Complexities = 0(log10(N))
+Note: When division process happens always remember logarithmic time complexity comes into picture
+
+armstrong number => cube of each digit and sum of them should be equal to the number itself
+
+print all divisors => underoot of n , loop till square root of n and print it
