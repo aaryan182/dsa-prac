@@ -1,0 +1,13 @@
+selection sort => select minimums 
+
+select min array element and swap it with the first element of the array and next check next min element and swap it with the second element of the array and so on. 
+
+TC: O(n^2)
+
+bubble sort => swap adjacent elements if they are in wrong order , push the max element at the end
+
+TC: O(n^2)
+
+insertion sort => insert an element in its right position
+
+TC: O(n^2)
