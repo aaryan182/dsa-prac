@@ -1,0 +1,27 @@
+Hashing 
+
+https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/
+
+arr[10^9+1] we cannot declare 
+
+max we can arr[10^6] inside main
+arr[10^9] we can do globally arr 
+
+character hashing 
+corresponding value = given character - 'a' is 97 
+
+f -a = 102 - 97 = 5
+
+ordered map and unordered map 
+
+map < key  , value > mp;
+map stores all the values in sorted order 
+
+map<char,int> mp;
+
+time complexity of map storing and fetching => O(log(n)) for average, best and worst case
+
+unordered map => order is not defined 
+storing and fetching => O(1) average and best , worst case => O(n)
+
+always use unordered map first then go to map 
